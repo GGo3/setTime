@@ -1,0 +1,43 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 700px;
+}
+
+.btns {
+  width: 200px;
+  height: 0px;
+  border: 1px solid black;
+  margin: 10px;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  opacity: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn-block {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  background-color: gray;
+  border: 1px solid black;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

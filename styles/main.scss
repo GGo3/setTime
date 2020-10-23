@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+}
+.btns {
+  width: 200px;
+  height: 0px;
+  border: 1px solid black;
+  margin: 10px;
+  transition-property: height;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+  opacity: 0;
+  font-size: 24px;
+  text-align: center;
+}
+.btn-block {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  background-color: gray;
+  border: 1px solid black;
+  display: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
